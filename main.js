@@ -45,43 +45,43 @@ const projects = [
     name: "FPGA Chess",
     tags: [VERILOG, MICROCONTROLLER, COURSEWORK],
     date: "March 2025",
-    path: "/projects/fpga-chess/fpga-chess.html"
+    path: "https://nathangpark.github.io/personal-website/projects/fpga-chess/fpga-chess.html"
   },
   {
     name: "Poker React",
     tags: [REACT,TS,HTML_CSS, PERSONAL],
     date: "June 2024",
-    path: "/projects/poker-react/poker-react.html"
+    path: "https://nathangpark.github.io/personal-website/projects/poker-react/poker-react.html"
   },
   {
     name: "2D Plotter",
     tags: [PYTHON, CIRCUITS, MICROCONTROLLER, COURSEWORK],
     date: "April 2024",
-    path: "/projects/2d-plotter/2d-plotter.html"
+    path: "https://nathangpark.github.io/personal-website/projects/2d-plotter/2d-plotter.html"
   },
   {
     name: "MIDI Player",
     tags: [C, ASSEMBLY, MICROCONTROLLER, CIRCUITS, COURSEWORK],
     date: "March 2025",
-    path: "projects/midi-player/midi-player.html"
+    path: "https://nathangpark.github.io/personal-website/projects/midi-player/midi-player.html"
   },
   {
     name: "PC Air Cooling Sensor System",
     tags: [CPP, MICROCONTROLLER, CIRCUITS, COURSEWORK],
     date: "November 2024",
-    path: "projects/sensor-system/sensor-system.html"
+    path: "https://nathangpark.github.io/personal-website/projects/sensor-system/sensor-system.html"
   },
   {
     name: "Wordle React",
     tags: [REACT,TS,PYTHON,HTML_CSS, PERSONAL],
     date: "October 2024",
-    path: "/projects/wordle-react/wordle-react.html"
+    path: "https://nathangpark.github.io/personal-website/projects/wordle-react/wordle-react.html"
   },
   {
     name: "Morse Code",
     tags: [PYTHON, MICROCONTROLLER, CIRCUITS, COURSEWORK],
     date: "November 2024",
-    path: "/projects/morse-code/morse-code.html"
+    path: "https://nathangpark.github.io/personal-website/projects/morse-code/morse-code.html"
   }
 ]
 
