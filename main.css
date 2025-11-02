@@ -417,7 +417,14 @@ p {
 }
 
 .course-grade {
-  width: 15%;
+  width: 10%;
+}
+
+.course-semester {
+  width: 20%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .course-dark {
