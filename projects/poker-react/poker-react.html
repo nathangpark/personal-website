@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nathan Park</title>
+  <!-- Style sheet  -->
+  <link rel="stylesheet" href="../../main.css">
+</head>
+<body>
+  <!-- Header Bar -->
+  <div class="header-bar">
+    <div class="header-content">
+      <div class="header-left">
+        <a href="../../index.html"><p class="header-text"><b>Nathan Park</b></p></a>
+      </div>
+      <div class="header-right">
+        <a href="../../index.html#about"><p class="header-text">About</p></a>
+        <a href="../../index.html#projects"><p class="header-text">Projects</p></a>
+        <a href="../../misc/coursework.html"><p class="header-text">Coursework</p></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="imageModal" class="modal">
+    <img class="modal-content" id="modalImage">
+    <div id="caption"></div>
+  </div>
+
+  <!-- Main content -->
+  <div class="main-content">
+    <!-- Github Button -->
+    <a target="_blank" href="https://github.com/nathangpark/poker-react">
+      <img class="github-button" src="../../misc/github-logo.svg">
+    </a>
+
+    <!-- Main Section -->
+    <h1>Poker React</h1>
+    <h2 class="subtitle">Personal Project</h2>
+    <p><a href="../../index.html">Home</a> / <a href="../../index.html#projects">Projects</a> / <b>Poker React</b> </p> 
+    <h2>Overview</h2>
+    <div class="hline"></div>
+    <h3>Description</h3>
+    <p>
+      Developed a poker game using TypeScriptX, Vite, and React, with CSS for styling, in Visual Studio Code IDE. Hosted entirely on GitHub pages.
+    </p>
+    <ul>
+      <li>
+        Designed intuitive functions and classes to streamline development of game mechanics, such as card storage, winner calculation, and chip distribution, enabling flexible expansion and easier maintenanc
+      </li>
+      <li>
+        Constructed and implemented 10+ modular React components representing cards, suits, and card groups for front end design.
+      </li>
+      <li>
+        Integrated custom algorithms to simulate intelligent opponents, ranging from 1 to 7 opponents at once.
+      </li>
+      <li>
+        Ensured clean, maintainable code with thorough documentation and comments throughout the project
+      </li>
+    </ul>
+    <h3>Current Features</h3>
+    <ul>
+      <li>Random cards and card group management</li>
+      <li>Betting/Raising, Calling/Checking, Folding</li>
+      <li>Variable bets</li>
+      <li>Complex algorithms for opponent's choices</li>
+      <li>Chips management</li>
+    </ul>
+    <h3>Design Concepts</h3>
+    <ul>
+      <li>Custom TypeScript classes for players, cards, hands, and card groups</li>
+      <li>Constructors for controlled object initialization</li>
+      <li>Getters and setters for encapsulated state access</li>
+      <li>Object-oriented design to separate logic from UI</li>
+      <li>Single Hook class managing game state and UI updates</li>
+      <li>Bot decision algorithm uses hand strength, pot odds, and randomization to determine fold, call, or raise actions.</li>
+      <li>Incorporates probabilistic weighting for bluffing and bet sizing based on game phase and chip count.</li>
+    </ul>
+    <a href="poker-play.html" class="coursework-button">Play ></a>
+    <h2>Screenshots</h2>
+    <div class="hline"></div>
+    <img class="screenshots" onclick="openModal(this)" alt="Example end screen" src="PokerBackground.png">
+    <img class="screenshots" onclick="openModal(this)" alt="Poker homescreen" src="poker-homescreen.png">
+    <h2>Resources</h2>
+    <div class="hline"></div>
+    <div class="project-links">
+      <a href="https://nathangpark.github.io/poker-react/" target="_blank"><p>Final Webpage</p></a>
+      <a href="https://github.com/nathangpark/poker-react" target="_blank"><p>Github</p></a>
+    </div>
+  </div>
+  <script src="../../main.js"></script>
+  
+</body>
+</html>

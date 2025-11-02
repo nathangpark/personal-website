@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nathan Park</title>
+  <!-- Style sheet  -->
+  <link rel="stylesheet" href="../../main.css">
+</head>
+<body>
+  <!-- Header Bar -->
+  <div class="header-bar">
+    <div class="header-content">
+      <div class="header-left">
+        <a href="../../index.html"><p class="header-text"><b>Nathan Park</b></p></a>
+      </div>
+      <div class="header-right">
+        <a href="../../index.html#about"><p class="header-text">About</p></a>
+        <a href="../../index.html#projects"><p class="header-text">Projects</p></a>
+        <a href="../../misc/coursework.html"><p class="header-text">Coursework</p></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="imageModal" class="modal">
+    <img class="modal-content" id="modalImage">
+    <div id="caption"></div>
+  </div>
+
+  <!-- Main content -->
+  <div class="main-content">
+    <!-- Main Section -->
+    <h1>MIDI Player</h1>
+    <h2 class="subtitle">Embedded Systems II Course Project</h2>
+    <p><a href="../../index.html">Home</a> / <a href="../../index.html#projects">Projects</a> / <b>MIDI Player</b> </p> 
+    <h2>Overview</h2>
+    <div class="hline"></div>
+    <h3>Description</h3>
+    <p>
+      The project is a MIDI Music Player that reads MIDI files and allows the user to select from the currently downloaded files to play. The project will be written in C with assembly.
+    </p>
+    <ul>
+      <li>Assembly is used to generate/stop the note waveforms at an input frequency.</li>
+      <li>C is used to handle the user interface, file reading/parsing, and timing. </li>
+    </ul>
+    <p>
+      Each MIDI file is a song that the user can select from and is stored onto the RP4 beforehand. The list of MIDI files is read and generated rather than hardcoded.
+    </p>
+    <h3>Features</h3>
+    <ul>
+      <li>An adequate user interface that can choose from multiple MIDI files</li>
+      <li>The ability to play and stop music at an adjustable volume and adjustable playback speed.</li>
+      <li>Regarding the required hardware, an LCD and rotary encoder is attached to the RP4. The LCD displays the current menu option alongside the currently selected song and the rotary encoder will allow the user to navigate the user interface. A single speaker will also be connected to the RP4. It will serve as the output for all of the music and due to the capabilities of MIDI files, we will be able to play multiple notes simultaneously. Any speaker can be used.</li>
+    </ul>
+    <h2>Pictures</h2>
+    <div class="hline"></div>
+    <img class="screenshots" onclick="openModal(this)" alt="MIDI Design Flowchart" src="midi-flowchart.png">
+    <img class="screenshots" onclick="openModal(this)" alt="MIDI User Interface" src="midi-user-interface.png">
+    <img class="screenshots" onclick="openModal(this)" alt="MIDI Hardware Implementation" src="midi-hardware.png">
+    <h2>Resources</h2>
+    <div class="hline"></div>
+    <div class="project-links">
+      <a href="midi-player-doc.html"><p>Full Documentation</p></a>
+      <a href="https://drive.google.com/file/d/1kuNX8zbdAQ-IACdS_uGIhNGvMQZRNr1q/view?usp=sharing" target="_blank"><p>Video Showcase</p></a></li>
+    </div>
+  </div>
+  <script src="../../main.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nathan Park</title>
+  <!-- Style sheet  -->
+  <link rel="stylesheet" href="../../main.css">
+</head>
+<body>
+  <!-- Header Bar -->
+  <div class="header-bar">
+    <div class="header-content">
+      <div class="header-left">
+        <a href="../../index.html"><p class="header-text"><b>Nathan Park</b></p></a>
+      </div>
+      <div class="header-right">
+        <a href="../../index.html#about"><p class="header-text">About</p></a>
+        <a href="../../index.html#projects"><p class="header-text">Projects</p></a>
+        <a href="../../misc/coursework.html"><p class="header-text">Coursework</p></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="imageModal" class="modal">
+    <img class="modal-content" id="modalImage">
+    <div id="caption"></div>
+  </div>
+
+  <!-- Main content -->
+  <div class="main-content">
+    <!-- Github Button -->
+    <a target="_blank" href="https://github.com/nathangpark/plotter-python">
+      <img class="github-button" src="../../misc/github-logo.svg">
+    </a>
+    <!-- Coursework Section -->
+    <h1>2D Plotter</h1>
+    <h2 class="subtitle">Design Methodology Course Project</h2>
+    <p><a href="../../index.html">Home</a> / <a href="../../index.html#projects">Projects</a> / <b>2D Plotter</b> </p> 
+    <h2>Overview</h2>
+    <div class="hline"></div>
+    <h3>Description</h3>
+    <p>
+      Four month long project that involved a team of five engineering students, 
+      tasked with building a functional 2D plotter, including its circuitry and software using a Raspberry Pi (RP4).
+    </p>
+    <ul>
+      <li>
+        Acted as lead software engineer, but worked closely with the circuitry team to design a cohesive product.
+      </li>
+      <li>
+        Constructed 14 efficient Python classes with clear organization, consistent naming, and optimized for RP4 performance. 
+        Continuous development improved accuracy by 35%.
+      </li>}
+      <li>
+        Developed the user interface and functionality of the plotter to adhere to strict requirements set by the instructors. 
+      </li>
+    </ul>
+    <h3>Design Concepts</h3>
+    <ul>
+      <li>Threads</li>
+      <li>Python Classes</li>
+      <li>Hardware and Software implementation of ADC</li>
+      <li>Hardware I/O Interface (Motors, Encoders, Display, GPIO, etc.)</li>
+      <li>Custom PCB Design</li>
+    </ul>
+    <h3>Features</h3>
+    <ul>
+      <li>Etch-A-Sketch Mode: Draw freely using external rotary encoders</li>
+      <li>Calibrate Mode: Manual or automatic calibration to determine position on plotter</li>
+      <li>Math Mode: Plot linear, quatratic, and circle functions with variable coefficients</li>
+      <li>G-Code Mode: Read a G-Code file to draw a pre-programming sequence</li>
+      <li>Custom Power Supply that converts 24V input to +/- 12V output, with integrated heat dissipation</li>
+      <li>Accurate power usage reading using a custom ADC</li>
+    </ul>
+    <h2>Pictures</h2>
+    <div class="hline"></div>
+    <img class="screenshots" onclick="openModal(this)" alt="Blank Plotter" src="blank-plotter.png">
+    <img class="screenshots" onclick="openModal(this)" alt="Drawing examples: Circles, Lines, G-Code Drawings" src="Drawing Examples.png">
+    <img class="screenshots" onclick="openModal(this)" alt="Math Mode examples: y=x,x^2 and circles" src="Math Mode.png">
+    <img class="screenshots" onclick="openModal(this)" alt="Group 7 Photo" src="Group Photo.png">
+    <img class="screenshots" onclick="openModal(this)" alt="Circuit Design" src="Circuit.png">
+    <img class="screenshots" onclick="openModal(this)" alt="Circuit Implementation" src="Circuit Real.png">
+    <h2>Resources</h2>
+    <div class="hline"></div>
+    <div class="project-links">
+      <a href="2d-plotter-doc.html"><p>Final Documentation</p></a>
+      <a href="https://youtube.com/playlist?list=PL-ZNuBf7N98oXJAFyI3xNzuR_te0wGc8-&si=ysqEbdgzf22OHgqi" target="_blank"><p>Demo Video Playlist</p></a>
+      <a href="https://github.com/nathangpark/plotter-python" target="_blank"><p>Github</p></a>
+    </div>
+  </div>
+  <script src="../../main.js"></script>
+</body>
+</html>

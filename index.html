@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nathan Park</title>
+  <!-- Style sheet  -->
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <!-- Header Bar -->
+  <div class="header-bar">
+    <div class="header-content">
+      <div class="header-left">
+        <a href=""><p class="header-text"><b>Nathan Park</b></p></a>
+      </div>
+      <div class="header-right">
+        <a href="#about"><p class="header-text">About</p></a>
+        <a href="#projects"><p class="header-text">Projects</p></a>
+        <a href="/misc/coursework.html"><p class="header-text">Coursework</p></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div class="main-content">
+    <!-- Intro Section -->
+    <div class="intro">
+      <div class="intro-content">
+        <h1>Nathan Park</h1>
+        <h2 class="subtitle">Computer Systems Engineering & Computer Science</h2>
+        <h2 class="subtitle">University of Georgia</h2>
+        <p class="contact-info"><b>Email:</b> nathangpark@gmail.com</p>
+        <p class="contact-info"><b>Phone:</b> (678) 315-2128</p>
+      </div>
+      <div>
+        <img class="img-uga" src="misc/GEORGIA-FS-FC.png" alt="UGA Logo">
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <h2 id="about">About</h2>
+    <div class="hline"></div>
+    
+    <p>I am a fifth year student studying at the University of Georgia, 
+      pursuing dual majors in Computer Systems Engineering and Computer Science, graduating May 2026.
+    </p>
+    <p>  
+      My professional interests lie at the intersection of hardware and software, with experience in 
+      FPGA design, embedded systems, and software development. As I approach graduation, 
+      I am seeking full-time opportunities where I can contribute to innovative engineering 
+      solutions and continue growing as a computer engineer.
+    </p>
+
+
+    <!-- Projects Section -->
+    <h2 id="projects">Projects</h2>
+    <div class="hline"></div>
+    <p>Filter Projects: <input type="text" placeholder="Search..." id="tag-input" onkeyup="filterProjects()"></p>
+ 
+    <div id="project-tag-list"></div>
+    <div class="project-heading">
+      <p class="project-title-heading heading">Title</p>
+      <p class="project-item-tags heading">Tags</p>
+      <p class="project-date-heading heading">Date</p>
+    </div>
+    <div id="project-list"></div>
+    <p></p>
+
+    <!-- Coursework Section -->
+    <h2 id="coursework">Coursework Overview</h2>
+    <div class="hline"></div>
+    <p><b>Current Cumulative GPA:</b> 3.89</p>
+    <div class="course course-header">
+      <p class="course-title course-header">Title</p>
+      <p class="course-grade course-header">Grade</p>
+      <p class="course-semester course-header">Term</p>
+    </div>
+    <div class="course-hline"></div>
+    <div id="course-list"></div>
+    <p></p>
+    <a href="/misc/coursework.html" class="coursework-button">See All</a>
+    
+
+    <div class="page-end"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
