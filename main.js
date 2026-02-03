@@ -93,14 +93,14 @@ const courseList = document.getElementById("course-list");
 const courses = [
   {
     title: "Algorithms",
-    grade: "(IP)",
+    grade: "A",
     semester: "Fall 2025",
     link: "https://bulletin.uga.edu/Course/Details/4360",
     tags: [CS]
   },
   {
     title: "Operating Systems",
-    grade: "(IP)",
+    grade: "A",
     semester: "Fall 2025",
     link: "https://bulletin.uga.edu/Course/Details/4253",
     tags: [CS]

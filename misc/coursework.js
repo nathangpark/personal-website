@@ -18,15 +18,40 @@ var anyTag = false;
 const courseList = document.getElementById("course-list");
 const courses = [
   {
-    title: "Algorithms",
+    title: "Software Engineering",
     grade: "(IP)",
+    semester: "Spring 2026",
+    link: "https://bulletin.uga.edu/Course/Details/4181",
+    tags: [CS]
+  },
+  {
+    title: "Cyber Security",
+    grade: "(IP)",
+    semester: "Spring 2026",
+    link: "https://bulletin.uga.edu/Course/Details/17670"
+  },
+  {
+    title: "Web Programming",
+    grade: "(IP)",
+    semester: "Spring 2026",
+    link: "https://bulletin.uga.edu/Course/Details/13776"
+  },
+  {
+    title: "Experiential Data Science Specialization",
+    grade: "(IP)",
+    semester: "Spring 2026",
+    link: "https://bulletin.uga.edu/Course/Details/45209"
+  },
+  {
+    title: "Algorithms",
+    grade: "A",
     semester: "Fall 2025",
     link: "https://bulletin.uga.edu/Course/Details/4360",
     tags: [CS]
   },
   {
     title: "Operating Systems",
-    grade: "(IP)",
+    grade: "A",
     semester: "Fall 2025",
     link: "https://bulletin.uga.edu/Course/Details/4253",
     tags: [CS]
