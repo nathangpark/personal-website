@@ -28,19 +28,22 @@ const courses = [
     title: "Cyber Security",
     grade: "(IP)",
     semester: "Spring 2026",
-    link: "https://bulletin.uga.edu/Course/Details/17670"
+    link: "https://bulletin.uga.edu/Course/Details/17670",
+    tags: [CS]
   },
   {
     title: "Web Programming",
     grade: "(IP)",
     semester: "Spring 2026",
-    link: "https://bulletin.uga.edu/Course/Details/13776"
+    link: "https://bulletin.uga.edu/Course/Details/13776",
+    tags: [CS]
   },
   {
     title: "Experiential Data Science Specialization",
     grade: "(IP)",
     semester: "Spring 2026",
-    link: "https://bulletin.uga.edu/Course/Details/45209"
+    link: "https://bulletin.uga.edu/Course/Details/45209",
+    tags: [CS,CSE]
   },
   {
     title: "Algorithms",
@@ -54,18 +57,18 @@ const courses = [
     grade: "A",
     semester: "Fall 2025",
     link: "https://bulletin.uga.edu/Course/Details/4253",
-    tags: [CS]
+    tags: [CS,CSE]
   },
   {
     title: "Intermediate Korean I",
-    grade: "(IP)",
+    grade: "A",
     semester: "Fall 2025",
     link: "https://bulletin.uga.edu/Course/Details/5425",
     tags: [MISC]
   },
   {
     title: "Afr Am Perc Mus",
-    grade: "(IP)",
+    grade: "A",
     semester: "Fall 2025",
     link: "https://bulletin.uga.edu/Course/Details/2259",
     tags: [MISC]
