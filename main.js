@@ -92,6 +92,20 @@ const MISC = 2;
 const courseList = document.getElementById("course-list");
 const courses = [
   {
+    title: "Cyber Security",
+    grade: "A",
+    semester: "Spring 2026",
+    link: "https://bulletin.uga.edu/Course/Details/17670",
+    tags: [CS]
+  },
+  {
+    title: "Web Programming",
+    grade: "A",
+    semester: "Spring 2026",
+    link: "https://bulletin.uga.edu/Course/Details/13776",
+    tags: [CS]
+  },
+  {
     title: "Algorithms",
     grade: "A",
     semester: "Fall 2025",
@@ -160,13 +174,6 @@ const courses = [
     semester: "Fall 2023",
     link: "https://bulletin.uga.edu/Course/Details/42016",
     tags: [CSE]
-  },
-  {
-    title: "Software Development",
-    grade: "A",
-    semester: "Summer 2023",
-    link: "https://bulletin.uga.edu/Course/Details/4726",
-    tags: [CS,CSE]
   }
 ]
 
