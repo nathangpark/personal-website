@@ -25,18 +25,18 @@ const courses = [
     tags: [CS]
   },
   {
-    title: "Web Programming",
-    grade: "A",
-    semester: "Spring 2026",
-    link: "https://bulletin.uga.edu/Course/Details/13776",
-    tags: [CS]
-  },
-  {
     title: "Experiential Data Science Specialization",
     grade: "A",
     semester: "Spring 2026",
     link: "https://bulletin.uga.edu/Course/Details/45209",
     tags: [CS,CSE]
+  },
+  {
+    title: "Web Programming",
+    grade: "A",
+    semester: "Spring 2026",
+    link: "https://bulletin.uga.edu/Course/Details/13776",
+    tags: [CS]
   },
   {
     title: "Software Engineering",
